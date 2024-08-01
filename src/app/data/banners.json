@@ -1,0 +1,100 @@
+[
+    {
+      "id": 1,
+      "title": "Web Development Bootcamp",
+      "description": "Master web development with our intensive bootcamp.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/banner1.png"
+    },
+    {
+      "id": 2,
+      "title": "Advanced JavaScript Course",
+      "description": "Enhance your JavaScript skills with our advanced course.",
+      "cta": "Learn More",
+      "textColor": "white",
+      "image": "/images/abstract-blue-banner-design-vector.jpg"
+    
+    },
+    {
+      "id": 3,
+      "title": "AI & Machine Learning",
+      "description": "Dive into AI and Machine Learning with our expert-led course.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/education-typography-banner-vector-26430325.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Cybersecurity Essentials",
+      "description": "Learn to protect systems and data from cyber threats.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/abc.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Data Science with Python",
+      "description": "Become a data scientist by learning Python and its libraries.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/OIP.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Cloud Computing Fundamentals",
+      "description": "Understand the basics of cloud computing and its services.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/yellow-abstract-banner-background.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Full Stack Development",
+      "description": "Become a full stack developer with our comprehensive course.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/c6e043f0c9d313443cc578dc6be6139f.jpg"
+    },
+    {
+      "id": 8,
+      "title": "DevOps Practices",
+      "description": "Learn DevOps to streamline and automate your IT processes.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/design-concept-word-teaching-website-banner-143236108.webp"
+    },
+    {
+      "id": 9,
+      "title": "Mobile App Development",
+      "description": "Create stunning mobile apps with our development course.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/elegant-colorful-business-wave-banner-vector.jpg"
+    },
+    {
+      "id": 10,
+      "title": "UI/UX Design",
+      "description": "Learn the principles of UI/UX design to create user-friendly interfaces.",
+      "cta": "Learn More",
+      "textColor": "white",
+      "image": "/images/vector-abstract-colorful-dotted-banner-background.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Big Data Analytics",
+      "description": "Analyze big data to uncover insights and drive decisions.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/yellow-abstract-banner-background.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Blockchain Technology",
+      "description": "Understand blockchain and its applications in the real world.",
+      "cta": "Learn More",
+      "textColor": "black",
+      "image": "/images/OIP.jpeg"
+    }
+  ]
+  
