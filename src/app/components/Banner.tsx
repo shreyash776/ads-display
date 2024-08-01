@@ -10,7 +10,6 @@ interface BannerProps {
   cta: string;
   textColor: string; 
   image: string;
-  background: string;
   onEdit: (id: number) => void;
 }
 
