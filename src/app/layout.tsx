@@ -1,7 +1,13 @@
-import React from 'react';
 import '@styles/globals.css';
 import Nav from './components/Nav';
-const RootLayout: React.FC = ({ children }) => {
+import React, { ReactNode } from 'react';
+
+
+interface RootLayoutProps {
+  children: ReactNode;
+}
+
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
       <body>
