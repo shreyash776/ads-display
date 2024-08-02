@@ -30,10 +30,11 @@
 
 .closeButton {
   position: absolute;
+  border: 1px solid black;
+  border-radius: 50%;
   top: 10px;
   right: 10px;
-  border: none;
-  background: none;
+  
   font-size: 24px;
   cursor: pointer;
   color: #333;
@@ -95,13 +96,14 @@
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  background-color: #ff6347;
+  background-color: rgb(4, 153, 227);
   color: white;
   margin-top: 20px;
 }
 
 .saveButton:hover {
-  background-color: #f43b1a;
+  background-color: rgb(4, 153, 227);
+  border: 2px solid black;
 }
 
 .saveButton:active {

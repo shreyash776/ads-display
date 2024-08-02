@@ -64,7 +64,7 @@ const EditBanner: React.FC<EditBannerProps> = ({ banner, onSave, onClose, imageO
           </div>
         </label>
         <button className={styles.saveButton} onClick={handleSave}>Done</button>
-        <button className={styles.saveButton} >Download</button>
+        
       </div>
     </div>
   );
