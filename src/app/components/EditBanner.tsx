@@ -28,6 +28,14 @@ const EditBanner: React.FC<EditBannerProps> = ({ banner, onSave, onClose, imageO
       <div className={styles.popupContent}>
         <button className={styles.closeButton} onClick={onClose}>×</button>
         <h2 className={styles.heading}>Edit Banner</h2>
+
+       
+        <div className={styles.bannerPreview} style={{ backgroundImage: `url(${background})` }}>
+          <img src={image} alt="Banner" className={styles.bannerImage} />
+          <h3 className={styles.bannerTitle}>{title}</h3>
+          <p className={styles.bannerDescription}>{description}</p>
+        </div>
+
         <label className={styles.label}>
           Title
           <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} className={styles.inputText} />
@@ -36,7 +44,7 @@ const EditBanner: React.FC<EditBannerProps> = ({ banner, onSave, onClose, imageO
           Description
           <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} className={styles.inputText} />
         </label>
-      
+
         <label className={styles.label}>
           Images
           <div className={styles.imageOptions}>
@@ -57,7 +65,6 @@ const EditBanner: React.FC<EditBannerProps> = ({ banner, onSave, onClose, imageO
         </label>
         <button className={styles.saveButton} onClick={handleSave}>Done</button>
         <button className={styles.saveButton} >Download</button>
-
       </div>
     </div>
   );
